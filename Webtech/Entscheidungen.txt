@@ -1,0 +1,6 @@
+- Design wie bei Herr Beier (4x Stück horizontal)
+- Suchfunktion in Sidebar
+- Main table für Steckbriefe
+- Steckbrief besteht alter, Position, Name, Verein
+- bearbeitungsfunktion ermöglicht anlegen und Löschen von Spielern
+- 

@@ -1,0 +1,183 @@
+#wrapper{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-size: 16px; /* Größe der Buchstaben*/
+    font-family: Arial, Helvetica, sans-serif; /* Damit ganze Webste den Font benutzt*/
+}
+
+body{
+    background-color: #EDEBE8; /*Background Color*/
+
+
+}
+.Teilbereich1{ /*Teilbereich 1*/
+   margin-top: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+  
+    border: 2px solid #777;
+
+}
+
+.Teilbereich2{ /*Teilbereich 2*/
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 2px solid #777;
+
+}
+.Teilbereich3{ /*Teilbereich 3*/
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 2px solid #777;
+
+}
+.Teilbereich4{ /*Teilbereich 4*/
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 2px solid #777;
+
+}
+.Teilbereich5{ /*Teilbereich 5*/
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 2px solid #777;
+
+}
+
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    height: 50px;
+    text-align: center; /*Logo in die Mitte*/
+}
+nav{
+    margin-top: 10px;
+    text-align: center;  /*Navigation in die Mitte*/
+}
+nav ul{ /*Entfernt Punkte der Navigation*/
+    list-style-type: none;
+}
+nav li{ /*Listitems nebeneinander anzeigen, mit kleinen abstand*/
+    display:inline;
+    margin-right: 40px;
+
+}
+a{  /*Farbe/Schriftart der Hyperlinks*/
+    color: #777;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+section{ /*Hauptteil*/
+    width: 603px;
+    float: left;
+    padding: 15px; /*Innenabstand alle Seiten*/
+    margin-top: 15px; /*Außenabstand*/
+    margin-right: 15px; /*Außenabstand*/
+    background-color: #f2f2f2;
+    border: 1px solid #dedcd9; /* Rand zwischen Section und aside*/
+    border-radius: 5px; /*Abgerundete Ecken*/
+
+
+
+}
+img{ /*Responsive Design*/
+    width: 20%;  /*nicht so responsive wie gedacht, unbedingt noch anpassen!!!*/
+
+
+}
+.aufzählungen{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article{ /*Artikel Klasse Ausrichtung*/
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.article img{
+    float: left; /*Ausrichtung*/
+    padding: 5px; /*Innenabstand*/
+    margin-right: 10px; /*Außenabstand rechts*/
+    border: 1px solid #dedcd9; /*Rand*/
+}
+
+.article a{
+    font-size: 18px; /*Titel fondsize*/
+
+}
+
+aside{ /*Seitenzeile*/
+    width: 210px;
+    float: left;
+    padding: 20px;
+    margin-top: 15px; /*Außenabstand oben*/
+    background-color: #f2f2f2;
+    border: 1px solid #dedcd9; /* Rand zwischen Section und aside*/
+    border-radius: 5px; /*Abgerundete Ecken*/
+    
+}
+        .sidebar p{ /*Sidebar Text verändern*/
+            padding: 5px;
+        }
+        .sidebar a{ /*Sidebar titel verändern*/
+            font-size: 18px;
+            padding: 5px;
+        }
+        .sidebar img{
+            padding: 5px;
+            margin-top: 15px;
+            border: 1px solid #dedcd9; /*Rand*/
+        }
+
+footer{ /*Fußzeile*/
+    background-color: #f2f2f2;
+    border: 1px solid #dedcd9; /* Rand zwischen Section und aside*/
+    border-radius: 5px; /*Abgerundete Ecken*/
+    clear: both;
+}
+        footer ui{
+            float: left;
+            list-style: none;
+            padding: 0px;
+            margin: 20px;
+
+        }
+        footer li{
+            margin-right: 15px;
+            display: inline;
+
+
+        }
+
+        /*START RESPONSIVE WEB*/
+@media (max-width: 480px) { /*Mobile*/
+
+}
+@media (max-width: 800px){ /*vertikal Mobile*/
+
+}
+@media (min-width: 801px) and (max-width: 1280px) { /*Tablet*/
+
+}
+@media (min-width: 1281px) { /*Alles andere (Laptops u. Desktops)*/
+
+}
+    /*ENDE RESPONSIVE WEB*/
